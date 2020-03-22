@@ -1,6 +1,6 @@
 body{
     font-family: 'Baloo 2', cursive;
-    background-color: black;
+    background-color: white;
 }
 #Container{
     width: 1510px;
@@ -14,12 +14,11 @@ body{
     
 }
 .optionMenu{
-    float: left;
+    float: right;
     min-width: 50px;
-    height: 25px;
-    font-size: 18px;
+    height: 40px;
+    font-size: 28px;
+    padding: 20px;
     
-    /*gruboks 2 px, styl - kropkowana, kolor*/
-    border-right:   2px dotted #444444 ;
-    opacity: 0.8;
+  
 }
