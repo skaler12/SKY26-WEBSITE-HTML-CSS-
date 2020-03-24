@@ -11,27 +11,90 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  
     <script>
       $(document).ready(function(){
         $('.slider').bxSlider();
       });
     </script>
+       <script src="jquery-3.4.1.min.js"></script>
+<script>
+   $('nav ul li a').click(function(e){
+      e.preventDefault();
+      let section = $(this).attr('href');
+      $('html, body').animate({ scrollTop: $(section).offset().top}, 1000);
+    });
+ </script> 
 </head>
 <body>
     <div id="Container">
+
+    <nav>
       <div id="Menu">
-        <div class="optionMenu">PoznanskiFly</div>
-        <div class="optionMenu">Our Planes</div>
-        <div class="optionMenu"> Offerts</div>
-        <div class="optionMenu"> News</div>
-        <div class="optionMenu"> Contact</div> 
+        <div class="optionMenu"><a href="#Contact">raz</a></div>
+        <div class="optionMenu"><a href="#Offert">dwa</a></div>
+        <div class="optionMenu"><a href="#Our Planes">trzy</a></div>
+        <div class="optionMenu"><a href="#Fly26">cztery</a></div> 
         <div style="clear: both;"></div>
-      </div>  
+      </div> 
+    </nav>
+
       <div class="slider">
         <div><img src="plane.png"></div>
         <div><img src="plane3.png"> </div>
       </div>
+
+      <main id="spa-container">
+        <section id="Fly26">
+            
+            <div id="topbar">
+                <div id="topbarl">
+                    <img src="planelogo.png"/>
+                </div>
+                <div id="topbarr">
+                    <span class="bigTitle"> O firmie Megan</span>
+                    <div style="height:15px;"></div>
+            
+                 Jedyny taki serwis w Zamościu, sprawdz nasza oferte ! 
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </section>
+
+        <section id="Our Planes">
+            <div id="topbar2">
+                <div id="topbarl2">
+                    <span class="bigTitle"> O firmie Megan</span>
+                    <div style="height:15px;"></div>
+            
+                 Jedyny taki serwis w Zamościu, sprawdz nasza oferte ! 
+                </br>
+                <input type="button" value="Flota" onClick="location.href='flota.html';" />
+                </div>
+                <div id="topbarr2">
+                    <img src="planelogo.png"/>
+                </div>
+                <div style="clear:both;"></div> 
+            </div>    
+        </section>
+
+        <section id="Offert">
+            <div id="topbar3">
+                <input type="button" value="Oferta" onClick="location.href='Offert.html';" />
+            </div>
+        </section>
+
+
+        <section id="Contact">
+            <div id="kontakt">
+                telefon 777 888 999 <br/>
+                emial:sky26@gmail.com<br/>
+                addres: Bondyrz 41A 
+            </div>
+        </section>
+        <div id = "footer">
+            Odwiedź Megan - autoryzowany serwis AGD z 15 letnim doswiadczeniem! Strona w sieci od 2020r.&copy; Wszelkie prawa zastrzeżone.
+          </div>  
+     </main>
 
     </div>  
 </body>
