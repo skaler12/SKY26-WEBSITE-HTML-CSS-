@@ -2,96 +2,139 @@ body{
     font-family: 'Baloo 2', cursive;
     background-color: white;
 }
-/*nav{
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*
+nav{
     position:fixed;
  }
 */
+
 #Container{
     width: 1510px;
     margin-left: auto;
     margin-right: auto;
-    
-}
-
+    }
 #Menu{
-    background-color: gray;
-    color: aliceblue;
-    
+    font-weight: 700;
+    background-color: #DCDCDC;
+}
+#LogoMenu{
+    float: left;
+    min-width: 50px;
+    height: 40px;
+    font-size: 28px;
+    padding: 20px; 
+    font-family: 'Pacifico', cursive;
 }
 #topbar{
-    background-color: #fffeee;
+    color: black;
+}
+ #topbarl{
+     background-color: white;
+    float: left;
+    width: 500px;
+    margin-top: 25px;
+    height: 530px;
+    text-align: center;
+}
+#topbarr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #99CCFF;
+    float: left;
+    padding: 20px;
+    width: 930px;
+    font-size: 16px;
+    text-align: justify;
+    height: 400px;
+}
+#topbar2{
+    background-color: white;
+    color: black;
+    height: 520px;
+}
+#topbarl2{
+    margin-top: 150px;
+    height: 153px;
+    background-color: #DCDCDC;
+    float: left;
+    width: 285px;
+}
+#topbarr2{
+    float: left;
+    width: 500px;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 30px;
+}
+#topbar3{
+    background-color: white;
+    color: black;
+    height: 520px;
+}
+#topbarl3{
+    
+    float: left;
+    width: 1180px;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 30px;
+}
+#topbarr3{
+    margin-top: 150px;
+    height: 153px;
+    background-color: #DCDCDC;
+    float: left;
+    width: 285px;
+}
+#kontakt{
+    background-color:#DCDCDC;
     color: black;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 490px;
-    }
-    #topbarl{
-    float: left;
-    padding: 20px;
-    width: 500p x;
+    height: 570px;
+    font-size: x-large;
     text-align: center;
-    border-right: 2px dotted #cccccc;
-    }
-    #topbarr{
-    float: left;
+}
+#footer{
+    background-color: white;
+    clear: both;
+    color: #000000;
+    text-align: center;
     padding: 20px;
-    width: 600px;
-    font-size: 16px;
-    text-align: justify;
-    }
-    #topbar2{
-        background-color: red;
-        color: black;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        height: 490px;
-        }
-        #topbarl2{
-        float: left;
-        padding: 20px;
-        width: 600px;
-        text-align: center;
-        border-right: 2px dotted #cccccc;
-        }
-        #topbarr2{
-        float: left;
-        padding: 20px;
-        width: 500px;
-        font-size: 16px;
-        text-align: justify;
-        }
-        #topbar3{
-            background-color: green;
-            color: black;
-            padding: 10px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            height: 490px;
-            }
-            #kontakt{
-                background-color: orange;
-                color: black;
-                padding: 10px;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                height: 490px;
-                }
-                #footer{
-                    background-color: plum;
-                    clear: both;
-                    color: #000000;
-                    text-align: center;
-                    padding: 20px;
-                    font-size: 18px;
-                }    
+    font-size: 18px;
+}    
 .optionMenu{
     float: right;
     min-width: 50px;
     height: 40px;
     font-size: 28px;
-    padding: 20px;
+    padding: 20px;  
+}
+.optionMenu:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.optionPlanes{
+    text-align: center;
+    font-size: 48px;
     
-  
+}
+.optionPlanes:hover{
+    background-color: #99CCFF;
+    cursor: pointer;
+}
+.optionOffer{
+    text-align: center;
+    font-size: 48px;
+    
+}
+.optionOffer:hover{
+    background-color: #99CCFF;
+    cursor: pointer;
 }
